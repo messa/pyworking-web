@@ -12,3 +12,7 @@ venv/packages-installed: requirements.txt
 	venv/bin/pip install -U pip wheel
 	venv/bin/pip install -r requirements.txt
 	touch $@
+
+docker-run:
+	docker build --tag pyworking-web .
+	docker run --rm -it -p 8000:8000 pyworking-web
