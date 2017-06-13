@@ -1,0 +1,40 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: #222;
+}
+
+.site-title {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: 700;
+    font-size: 49px;
+    color: #444;
+}
+
+strong {
+    font-weight: 700;
+}
+
+p {
+    max-width: 42em;
+}
+
+.intro p {
+    margin-bottom: 0.4rem;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
